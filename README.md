@@ -1,8 +1,11 @@
-## marcos beroeps opdracht!!
+## update 1
+- ui gamaakt en uitgeprobeerd
+- begin verhaal gemaakt (` nog niet in de code `)
+  
 
-## hier ga ik mijn keuzeverhaal game maken in javascript!!
-## verhaal komt nog ;-;
+## update 2
+- ik wou de ui in een ander file doen maar dat gaat te veel moeite zijn
+- verhaal nog niet af dus ik heb het nog niet er in gedaan
+- wel alvat een themepate dus ik moet alleen nog de verhaal stukjes er in doen   `:)`
 
-
-## copy paste ui werkt nog niet 
-## er is we al een voorbeeld
+## update 3 nog mee bezig
