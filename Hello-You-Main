@@ -1,0 +1,7 @@
+var readlinesync = require ("readline-sync")
+console.clear();
+vraag0();
+function vraag0()
+{
+    const deel1 = readlinesync.question("Het is midden in de nacht en je bent alleen thuis,\n je hoort opeens geklop op de deur\n\n Wat doe je nu?\n A: Je kijkt eerst door het spiekgaatje \n B: Je opent de deur zonder te kijken")
+}   
