@@ -1,318 +1,498 @@
-var readlinesync = require ("readline-sync")
+var readlinesync = require("readline-sync")
+
+vraag1();
+
+
+function vraag1() {
+   console.log("test")
+    const keuze1 = readlinesync.question(`je staat net op en . . .
+    Het geklop word steeds harder !!
+    
+    wat ga je doen?
+    
+    A: lopen naar de deur 
+    B: rennen naar de deur `)
+
+    if (keuze1 === "a") {
+        console.clear();
+        einde1()
+    }
+
+    else if (keuze1 === "b") {
+        console.clear();
+        vraag2()
+    }
+}
+
+var readlinesync = require("readline-sync")
 console.clear();
 vraag1();
 
 
-function vraag1()
-{
-    const deel0 = readlinesync.question()
-    if (deel0 === "a"){
+function vraag2() {
+    console.clear();
+    const keuze1 = readlinesync.question(`je staat net op en . . .
+    Het geklop word steeds harder !!
+    
+    wat ga je doen?
+    
+    A: lopen naar de deur 
+    B: rennen naar de deur `)
+    if (keuze1 === "a") {
+        console.clear();
+        vraag3()
+    }
 
+    else if (keuze1 === "b") {
+        console.clear();
+        vraag3()
     }
-    else if (deel0 === "b"){
+}
+
+
+var readlinesync = require("readline-sync")
+console.clear();
+vraag1();
 
+
+function vraag1() {
+    console.clear();
+    const keuze1 = readlinesync.question(`je bent nu eindeljk bij de deur
+    het gebonk is opeens gestopt
+    
+    wat ga je doen?
+    
+    A: voorzichtig kijken door het spiekgaatje (19)
+    B: deur openen zonder te checken (4)
+    `)
+    if (keuze1 === "a") {
+        console.clear();
+        vraag19()
     }
-    else {
-        vraag1();
+
+    else if (keuze1 === "b") {
+        console.clear();
+        vraag4()
     }
+}
 
-}   
 
-function vraag2()
-{
-    const deel0 = readlinesync.question()
-    if (deel0 === "a"){
+var readlinesync = require("readline-sync")
+console.clear();
+vraag1();
 
-    }
-    else if (deel0 === "b"){
 
+function vraag1() {
+    console.clear();
+    const keuze1 = readlinesync.question(``)
+    if (keuze1 === "a") {
+        console.clear();
+        vraag()
     }
-    else {
-        vraag2();
+
+    else if (keuze1 === "b") {
+        console.clear();
+        vraag()
     }
+}
 
-}   
-function vraag3()
-{
-    const deel0 = readlinesync.question()
-    if (deel0 === "a"){
 
-    }
-    else if (deel0 === "b"){
+var readlinesync = require("readline-sync")
+console.clear();
+vraag1();
+
 
+function vraag1() {
+    console.clear();
+    const keuze1 = readlinesync.question(``)
+    if (keuze1 === "a") {
+        console.clear();
+        vraag()
     }
-    else {
-        vraag3();
+
+    else if (keuze1 === "b") {
+        console.clear();
+        vraag()
     }
+}
 
-}   
-function vraag4()
-{
-    const deel0 = readlinesync.question()
-    if (deel0 === "a"){
 
-    }
-    else if (deel0 === "b"){
+var readlinesync = require("readline-sync")
+console.clear();
+vraag1();
 
+
+function vraag1() {
+    console.clear();
+    const keuze1 = readlinesync.question(``)
+    if (keuze1 === "a") {
+        console.clear();
+        vraag()
     }
-    else {
-        vraag4();
+
+    else if (keuze1 === "b") {
+        console.clear();
+        vraag()
     }
+}
 
-}   
-function vraag5()
-{
-    const deel0 = readlinesync.question()
-    if (deel0 === "a"){
 
-    }
-    else if (deel0 === "b"){
+var readlinesync = require("readline-sync")
+console.clear();
+vraag1();
+
 
+function vraag1() {
+    console.clear();
+    const keuze1 = readlinesync.question(``)
+    if (keuze1 === "a") {
+        console.clear();
+        vraag()
     }
-    else {
-        vraag5();
+
+    else if (keuze1 === "b") {
+        console.clear();
+        vraag()
     }
+}
 
-}   
-function vraag6()
-{
-    const deel0 = readlinesync.question()
-    if (deel0 === "a"){
 
-    }
-    else if (deel0 === "b"){
+var readlinesync = require("readline-sync")
+console.clear();
+vraag1();
 
+
+function vraag1() {
+    console.clear();
+    const keuze1 = readlinesync.question(``)
+    if (keuze1 === "a") {
+        console.clear();
+        vraag()
     }
-    else {
-        vraag6();
+
+    else if (keuze1 === "b") {
+        console.clear();
+        vraag()
     }
+}
 
-}   
 
-function vraag7()
-{
-    const deel0 = readlinesync.question()
-    if (deel0 === "a"){
+var readlinesync = require("readline-sync")
+console.clear();
+vraag1();
 
-    }
-    else if (deel0 === "b"){
 
+function vraag1() {
+    console.clear();
+    const keuze1 = readlinesync.question(``)
+    if (keuze1 === "a") {
+        console.clear();
+        vraag()
     }
-    else {
-        vraag7();
+
+    else if (keuze1 === "b") {
+        console.clear();
+        vraag()
     }
+}
 
-}   
-function vraag8()
-{
-    const deel0 = readlinesync.question()
-    if (deel0 === "a"){
 
-    }
-    else if (deel0 === "b"){
+var readlinesync = require("readline-sync")
+console.clear();
+vraag1();
+
 
+function vraag1() {
+    console.clear();
+    const keuze1 = readlinesync.question(``)
+    if (keuze1 === "a") {
+        console.clear();
+        vraag()
     }
-    else {
-        vraag8();
+
+    else if (keuze1 === "b") {
+        console.clear();
+        vraag()
     }
+}
 
-}   
-function vraag9()
-{
-    const deel0 = readlinesync.question()
-    if (deel0 === "a"){
 
-    }
-    else if (deel0 === "b"){
+var readlinesync = require("readline-sync")
+console.clear();
+vraag1();
 
+
+function vraag1() {
+    console.clear();
+    const keuze1 = readlinesync.question(``)
+    if (keuze1 === "a") {
+        console.clear();
+        vraag()
     }
-    else {
-        vraag9();
+
+    else if (keuze1 === "b") {
+        console.clear();
+        vraag()
     }
+}
 
-}   
-function vraag10()
-{
-    const deel0 = readlinesync.question()
-    if (deel0 === "a"){
 
-    }
-    else if (deel0 === "b"){
+var readlinesync = require("readline-sync")
+console.clear();
+vraag1();
+
 
+function vraag1() {
+    console.clear();
+    const keuze1 = readlinesync.question(``)
+    if (keuze1 === "a") {
+        console.clear();
+        vraag()
     }
-    else {
-        vraag10();
+
+    else if (keuze1 === "b") {
+        console.clear();
+        vraag()
     }
+}
 
-}   
-function vraag12()
-{
-    const deel0 = readlinesync.question()
-    if (deel0 === "a"){
 
-    }
-    else if (deel0 === "b"){
+var readlinesync = require("readline-sync")
+console.clear();
+vraag1();
 
+
+function vraag1() {
+    console.clear();
+    const keuze1 = readlinesync.question(``)
+    if (keuze1 === "a") {
+        console.clear();
+        vraag()
     }
-    else {
-        vraag12();
+
+    else if (keuze1 === "b") {
+        console.clear();
+        vraag()
     }
+}
 
-}   
 
-function vraag13()
-{
-    const deel0 = readlinesync.question()
-    if (deel0 === "a"){
+var readlinesync = require("readline-sync")
+console.clear();
+vraag1();
 
-    }
-    else if (deel0 === "b"){
 
+function vraag1() {
+    console.clear();
+    const keuze1 = readlinesync.question(``)
+    if (keuze1 === "a") {
+        console.clear();
+        vraag()
     }
-    else {
-        vraag13();
+
+    else if (keuze1 === "b") {
+        console.clear();
+        vraag()
     }
+}
 
-}   
-function vraag14()
-{
-    const deel0 = readlinesync.question()
-    if (deel0 === "a"){
 
-    }
-    else if (deel0 === "b"){
+var readlinesync = require("readline-sync")
+console.clear();
+vraag1();
+
 
+function vraag1() {
+    console.clear();
+    const keuze1 = readlinesync.question(``)
+    if (keuze1 === "a") {
+        console.clear();
+        vraag()
     }
-    else {
-        vraag14();
+
+    else if (keuze1 === "b") {
+        console.clear();
+        vraag()
     }
+}
 
-}   
-function vraag15()
-{
-    const deel0 = readlinesync.question()
-    if (deel0 === "a"){
 
-    }
-    else if (deel0 === "b"){
+var readlinesync = require("readline-sync")
+console.clear();
+vraag1();
 
+
+function vraag1() {
+    console.clear();
+    const keuze1 = readlinesync.question(``)
+    if (keuze1 === "a") {
+        console.clear();
+        vraag()
     }
-    else {
-        vraag15();
+
+    else if (keuze1 === "b") {
+        console.clear();
+        vraag()
     }
+}
 
-}   
-function vraag16()
-{
-    const deel0 = readlinesync.question()
-    if (deel0 === "a"){
 
-    }
-    else if (deel0 === "b"){
+var readlinesync = require("readline-sync")
+console.clear();
+vraag1();
+
 
+function vraag1() {
+    console.clear();
+    const keuze1 = readlinesync.question(``)
+    if (keuze1 === "a") {
+        console.clear();
+        vraag()
     }
-    else {
-        vraag16();
+
+    else if (keuze1 === "b") {
+        console.clear();
+        vraag()
     }
+}
 
-}   
-function vraag17()
-{
-    const deel0 = readlinesync.question()
-    if (deel0 === "a"){
 
-    }
-    else if (deel0 === "b"){
+var readlinesync = require("readline-sync")
+console.clear();
+vraag1();
 
+
+function vraag1() {
+    console.clear();
+    const keuze1 = readlinesync.question(``)
+    if (keuze1 === "a") {
+        console.clear();
+        vraag()
     }
-    else {
-        vraag17();
+
+    else if (keuze1 === "b") {
+        console.clear();
+        vraag()
     }
+}
 
-}   
 
-function vraag18()
-{
-    const deel0 = readlinesync.question()
-    if (deel0 === "a"){
+var readlinesync = require("readline-sync")
+console.clear();
+vraag1();
 
-    }
-    else if (deel0 === "b"){
 
+function vraag1() {
+    console.clear();
+    const keuze1 = readlinesync.question(``)
+    if (keuze1 === "a") {
+        console.clear();
+        vraag()
     }
-    else {
-        vraag18();
+
+    else if (keuze1 === "b") {
+        console.clear();
+        vraag()
     }
+}
 
-}   
-function vraag19()
-{
-    const deel0 = readlinesync.question()
-    if (deel0 === "a"){
 
-    }
-    else if (deel0 === "b"){
+var readlinesync = require("readline-sync")
+console.clear();
+vraag1();
+
 
+function vraag1() {
+    console.clear();
+    const keuze1 = readlinesync.question(``)
+    if (keuze1 === "a") {
+        console.clear();
+        vraag()
     }
-    else {
-        vraag19();
+
+    else if (keuze1 === "b") {
+        console.clear();
+        vraag()
     }
+}
 
-}   
-function vraag20()
-{
-    const deel0 = readlinesync.question()
-    if (deel0 === "a"){
 
-    }
-    else if (deel0 === "b"){
+var readlinesync = require("readline-sync")
+console.clear();
+vraag1();
 
+
+function vraag1() {
+    console.clear();
+    const keuze1 = readlinesync.question(``)
+    if (keuze1 === "a") {
+        console.clear();
+        vraag()
     }
-    else {
-        vraag20();
+
+    else if (keuze1 === "b") {
+        console.clear();
+        vraag()
     }
+}
 
-}   
-function vraag21()
-{
-    const deel0 = readlinesync.question()
-    if (deel0 === "a"){
 
-    }
-    else if (deel0 === "b"){
+var readlinesync = require("readline-sync")
+console.clear();
+vraag1();
+
 
+function vraag1() {
+    console.clear();
+    const keuze1 = readlinesync.question(``)
+    if (keuze1 === "a") {
+        console.clear();
+        vraag()
     }
-    else {
-        vraag21();
+
+    else if (keuze1 === "b") {
+        console.clear();
+        vraag()
     }
+}
 
-}   
-function vraag22()
-{
-    const deel0 = readlinesync.question()
-    if (deel0 === "a"){
 
-    }
-    else if (deel0 === "b"){
+var readlinesync = require("readline-sync")
+console.clear();
+vraag1();
 
+
+function vraag1() {
+    console.clear();
+    const keuze1 = readlinesync.question(``)
+    if (keuze1 === "a") {
+        console.clear();
+        vraag()
     }
-    else {
-        vraag22();
+
+    else if (keuze1 === "b") {
+        console.clear();
+        vraag()
     }
+}
 
-}   
+var readlinesync = require("readline-sync")
+console.clear();
+vraag1();
 
-function vraag23()
-{
-    const deel0 = readlinesync.question()
-    if (deel0 === "a"){
 
+function vraag1() {
+    console.clear();
+    const keuze1 = readlinesync.question(``)
+    if (keuze1 === "a") {
+        console.clear();
+        vraag()
     }
-    else if (deel0 === "b"){
 
+    else if (keuze1 === "b") {
+        console.clear();
+        vraag()
     }
-    else {
-        vraag23();
-    }
+}
+
 
-}   
