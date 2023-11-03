@@ -1,6 +1,6 @@
 const readlineSync = require("readline-sync")
-let random = Math.round(Math.random() * 10)
-vraag0()
+let randomo = Math.round(Math.random() * 10)
+vraag18()
 function vraag0() {
     console.clear()
     console.log
@@ -90,7 +90,7 @@ function vraag3() {
     }
     else (console.clear())
 }
-a
+
 function vraag4() {
     console.clear();
     const keuze4 = readlineSync.question(`er staat een vreemde man met een helm een grote vierkante tas voor de deur
@@ -266,7 +266,7 @@ function vraag12() {
 }
 function vraag13() {
     console.clear();
-    const keuze13 = readlineSync.question(`de man doet zijn helm uit en zegt dat hij een bestelling heeft voor dit adress 
+    const keuze13 = readlineSync.question(`de man doet zijn helm af en zegt dat hij een bestelling heeft voor dit adres 
         nummer 30 zegt hij
         
         jij woont op nummer 28
@@ -365,30 +365,19 @@ function vraag17() {
 }
 
 function vraag18() {
-    console.clear();
-    const keuze18 = readlineSync.question(`het waait te hard om iets te kunnen horen
-        je kijkt door het spiekgaatje en je ziet niks meer
-        je wil naar bed maar je bent nu ondertussen klaarwakker
-        
-        wat doe je nu?
-        
-        A: een film film kijken in de woonkamer 
-        B: naar de keuken een snack pakken \n
-        `)
-    if (random <= 3) {
-        vraag7
+    console.clear(); 
+
+ 
+    if (randomo <= 3) {
+        vraag7();
     }
 
-    else if (keuze18 === "a") {
-        console.clear();
-        vraag16()
-    }
-
-    else if (keuze18 === "b") {
-        console.clear();
-        einde2()
+    else if (vraag24() >= 4) {
+ 
     }
 }
+
+
 function vraag19() {
     console.clear();
     const keuze19 = readlineSync.question(`je kijkt door het spiek gaatje
@@ -469,18 +458,40 @@ function vraag22() {
         vraag17()
     }
 }
+function vraag24() {
+    const keuze24 = readlineSync.question(`het waait te hard om iets te kunnen horen
+        je kijkt door het spiekgaatje en je ziet niks meer
+        je wil naar bed maar je bent nu ondertussen klaarwakker
+        
+        wat doe je nu?
+        
+        A: een film film kijken in de woonkamer 
+        B: naar de keuken een snack pakken \n
+        `)
+
+    if (keuze24 === "a") {
+        console.clear();
+        vraag16()
+    }
+
+    else if (keuze24 === "b") {
+        console.clear();
+        einde2()
+    }
+}
+
 function einde1() {
 
     console.clear()
     console.log(`het was gelukkig gewoon een pizza bezorger! -__-`)
-    
+
 }
 function einde2() {
     console.clear()
     console.log(`de man had blijkbaar geen goed dag en zegt haalt je in
     hij steekt je neer en rent weg met de pizza
     het was dus gewoon een pizza bezorger?!!`)
-    
+
 }
 
 function einde3() {
@@ -489,38 +500,38 @@ function einde3() {
     hij steekt je neer en rent weg met de pizza
     het was dus gewoon een pizza bezorger?!!
     `);
-    
+
 }
 
 function einde4() {
     console.clear()
     console.log(`na lang liggen en geluiden horen val je in slaap en slaap je de hele nacht door`)
-    
+
 }
 
 function einde5() {
     console.clear()
     console.log(`het was pizza voor je broertje die eigenlijk niet thuis hoorde te zijn nu!
     `)
-    
+
 }
 
 function einde6() {
     console.clear()
     console.log(`Gratis pizzaaaa!!!`)
-    
+
 }
 
 function einde7() {
     console.clear()
     console.log(`je broertje word wakker en vertelt dat hij stiekem thuis gebleven en had een pizza besteld`)
-    
+
 }
 
 function einde8() {
     console.clear()
     console.log(`ambulance komt je broertje word wakker en vertelt dat hij stiekem thuis gebleven en had een pizza besteld`)
-    
+
 }
 
 function einde9() {
@@ -530,7 +541,7 @@ function einde9() {
     uiteindelijk na 10 jaar klopt de politie aan je deur
     ze houden je aan en je krijgt levenslang cellstraf
     `)
-    
+
 }
 
 
