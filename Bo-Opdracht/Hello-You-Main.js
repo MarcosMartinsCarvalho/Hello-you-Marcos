@@ -386,7 +386,7 @@ function vraag18() {
 
     else if (keuze1 === "b") {
         console.clear();
-        einde22()
+        einde2()
     }
 }
 function vraag19() {
@@ -469,5 +469,68 @@ function vraag22() {
         vraag17()
     }
 }
+function einde1() {
+    console.clear
+    console.log(`het was gelukkig gewoon een pizza bezorger! -__-`)
+    
+}
+function einde2() {
+    console.clear
+    console.log(`de man had blijkbaar geen goed dag en zegt haalt je in
+    hij steekt je neer en rent weg met de pizza
+    het was dus gewoon een pizza bezorger?!!`)
+    
+}
+
+function einde3() {
+    console.clear
+    console.log(`de man had blijkbaar geen goed dag en slaat je knock out
+    hij steekt je neer en rent weg met de pizza
+    het was dus gewoon een pizza bezorger?!!
+    `)
+    
+}
+
+function einde4() {
+    console.clear
+    console.log(`na lang liggen en geluiden horen val je in slaap en slaap je de hele nacht door`)
+    
+}
+
+function einde5() {
+    console.clear
+    console.log(`het was pizza voor je broertje die eigenlijk niet thuis hoorde te zijn nu!
+    `)
+    
+}
+
+function einde6() {
+    console.clear
+    console.log(`Gratis pizzaaaa!!!`)
+    
+}
+
+function einde7() {
+    console.clear
+    console.log(`je broertje word wakker en vertelt dat hij stiekem thuis gebleven en had een pizza besteld`)
+    
+}
+
+function einde8() {
+    console.clear
+    console.log(`ambulance komt je broertje word wakker en vertelt dat hij stiekem thuis gebleven en had een pizza besteld`)
+    
+}
+
+function einde9() {
+    console.clear
+    console.log(`je broertje is dood en de volgende ochtend ben je weg
+    je maakt een nieuw id en verhuist naar Kazachstan
+    uiteindelijk na 10 jaar klopt de politie aan je deur
+    ze houden je aan en je krijgt levenslang cellstraf
+    `)
+    
+}
+
 
 
