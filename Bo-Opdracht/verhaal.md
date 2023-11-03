@@ -14,6 +14,7 @@ B: Naar de deur lopen (2)
 2
 
 
+
 je staat net op en . . .
 Het geklop word steeds harder !!
 
@@ -232,7 +233,7 @@ A: je loop naar boven en roept kijkt uit het raam (einde1)
 B: je bukt en roept door de brievenbus (18)
 
 
-21
+20
 ambulance neemt niet op?!
 je broertje beweegt niet meer en lijkt dood
 
@@ -244,7 +245,7 @@ B: je tilt je broertje op en legt hem op de bank en wacht (22)
 
 
 
-22
+21
 hij word nogsteeds niet wakker???
 hij ziet er helemaal wit uit en heeft geen hartslag!
 je word doodsbang dat jij alle schuld krijgt van dit
@@ -255,7 +256,14 @@ A: je doet hem in een groot vuilniszak en brengt hem naar de tuin... (einde9)
 B: je sleept hem naar het riviertje achter het huis.... (einde9)
 
 
+22
+je bent bij de koelkast maar je hoort geluiden buiten
+bijna alsof er iemand in je voortuin zit....
 
+wat doe je nu?
+
+A: even rondkijken om te zien of er iemand buiten is
+B: negeren en een snack uit de koelkast pakken ()
 
 
 
