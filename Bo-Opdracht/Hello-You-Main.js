@@ -1,6 +1,6 @@
 const readlineSync = require("readline-sync")
 let randomo = Math.round(Math.random() * 10)
-vraag18()
+vraag0();
 function vraag0() {
     console.clear()
     console.log
@@ -23,7 +23,10 @@ function vraag0() {
     else (vraag0())
 
 
-
+// hier onder de vragen
+// vragen en verhaal staan ook verhaal.md
+// function vraag18 is random
+// kleine kans dat je broertje thuis komt en er iets heel anders gebeurt
 
 }
 
@@ -93,7 +96,7 @@ function vraag3() {
 
 function vraag4() {
     console.clear();
-    const keuze4 = readlineSync.question(`er staat een vreemde man met een helm een grote vierkante tas voor de deur
+    const keuze4 = readlineSync.question(`er staat een vreemde man met een helm en een grote vierkante tas voor de deur
     de lampen van je voortuin staan uit en het stormt buiten
     
     wat doe je nu?
@@ -230,7 +233,7 @@ function vraag10() {
 
 function vraag11() {
     console.clear();
-    const keuze11 = readlineSync.question(`je bent de ambulance en de medewerker geeft je instucties
+    const keuze11 = readlineSync.question(`je belt de ambulance en de medewerker geeft je instucties
 
         A: niet luisteren en hopen dat ze optijd kunnen komen
         B: luisteren naar de medewerker en hem proberen wakker te maken \n
@@ -380,7 +383,7 @@ function vraag18() {
 
 function vraag19() {
     console.clear();
-    const keuze19 = readlineSync.question(`je kijkt door het spiek gaatje
+    const keuze19 = readlineSync.question(`je kijkt door het spiekgaatje
         het is te donker om goed te zien maar het klinkt als een man die iets roept
         
         wat doe je nu?
@@ -488,7 +491,7 @@ function einde1() {
 }
 function einde2() {
     console.clear()
-    console.log(`de man had blijkbaar geen goed dag en zegt haalt je in
+    console.log(`de man had blijkbaar geen goed dag en haalt je in
     hij steekt je neer en rent weg met de pizza
     het was dus gewoon een pizza bezorger?!!`)
 
@@ -524,13 +527,13 @@ function einde6() {
 
 function einde7() {
     console.clear()
-    console.log(`je broertje word wakker en vertelt dat hij stiekem thuis gebleven en had een pizza besteld`)
+    console.log(`je broertje word wakker en vertelt dat hij stiekem thuis is gebleven en had een pizza besteld`)
 
 }
 
 function einde8() {
     console.clear()
-    console.log(`ambulance komt je broertje word wakker en vertelt dat hij stiekem thuis gebleven en had een pizza besteld`)
+    console.log(`ambulance komt en je broertje word wakker en vertelt dat hij stiekem thuis gebleven en had een pizza besteld`)
 
 }
 
